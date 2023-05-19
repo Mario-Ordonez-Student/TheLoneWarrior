@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour {
 
 
@@ -140,10 +141,6 @@ public class Player : MonoBehaviour {
 
         //Setting maximum health as current health
         maximumHealth = currentHealth;
-
-        //Disabling cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     public void whitebottleend()
@@ -242,9 +239,7 @@ public class Player : MonoBehaviour {
             currentHealth = 0;
             player_animator.SetBool("Dead", true);
             player_rigidbody2d.velocity = Vector2.zero;
-            player_rigidbody2d.mass = 5;
-            player_rigidbody2d.angularDrag = 5;
-            player_rigidbody2d.gravityScale = 1.3f;
+            SceneManager.LoadScene("Death Screen");
         }
         else if (currentHealth > 0) { // If player characters health are above zero
             if (!onLedge) { // If player character is not holding on ledge

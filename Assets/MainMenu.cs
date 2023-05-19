@@ -12,19 +12,24 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public void OpenOptions()
+    public void StartGameSkipTutorial()
     {
-
+        SceneManager.LoadScene("Main Game Scene");
     }
 
-    public void CloseOptions()
+    public void Credits()
     {
-
+        SceneManager.LoadScene("Credits");
     }
 
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("You quit");
+    }
+
+    public void Title()
+    {
+        SceneManager.LoadScene("Title");
     }
 }

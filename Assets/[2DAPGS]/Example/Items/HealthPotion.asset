@@ -20,7 +20,7 @@ MonoBehaviour:
     out of it give the impression that the drink is very sweet. I guess that's how
     it should be. Press Enter to use!
   valueType: 'Health: +'
-  itemValue: 3
+  itemValue: 5
   onUse:
     m_PersistentCalls:
       m_Calls:
