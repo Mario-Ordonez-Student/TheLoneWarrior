@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 45088
+  controlID: 45541
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45044
+  controlID: 45497
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45035
+  controlID: 45488
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,21 +240,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f496f9ff2ee1f9ff06e7f9ff2ce8f9ff4ee8f9ff54e9f9ffb83efaff7861faffc689faffea8bfaff0c8cfaff4cacfaff3aaefaff30c1faff72c1fafffac2faff680bfbff9811fbffbc16fbff2628fbffaa30fbfff03dfbff404ffbffd052fbff8453fbff9259fbff8476fbff8c76fbff9478fbff58c6fbffdad9fbffd2e1fbff662afcff4c34fcff9239fcff6e3afcffbc33fdff5a4dfdff7255fdff1056fdff68a8fdff1aa9fdffd6a9fdffe4b7fdff02bdfdff22bdfdff34bdfdff1608feff0825feffb025feffc026feff6427feff26cffeff52d1feff6285ffff2289ffffd289ffffccfaffff3a7b0000487b0000a87c0000f47f0000d28000006c820000207e0300ac85030084860300122a0500b05d0500de5d0500527d0500a48505007ee90500
+      m_ExpandedIDs: d671f8ffba73f8ff7e81f8ff2682f8ff4a85f8ff5885f8ff68ccf8ffc2d6f8ff4ad7f8ffd82df9fff496f9ff2ee1f9ff06e7f9ff2ce8f9ff4ee8f9ff54e9f9ffb83efaff7861faffc689faffea8bfaff0c8cfaff4cacfaff3aaefaff30c1faff72c1fafffac2faff680bfbff9811fbffbc16fbff2628fbffaa30fbfff03dfbff404ffbffd052fbff8453fbff9259fbff8476fbff8c76fbff9478fbff58c6fbffdad9fbffd2e1fbff662afcff4c34fcff9239fcff6e3afcffbc33fdff5a4dfdff7255fdff1056fdff68a8fdff1aa9fdffd6a9fdffe4b7fdff02bdfdff22bdfdff34bdfdff1608feff0825feffb025feffc026feff6427feff26cffeff52d1feff6285ffff2289ffffd289ffffccfaffff3a7b0000487b0000a87c0000f47f0000d28000006c820000207e0300ac85030084860300122a0500b05d0500de5d0500527d0500a48505007ee9050016fd0600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: '[2DAPGS] Player'
-        m_OriginalName: '[2DAPGS] Player'
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 415108
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -686,9 +686,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 42.05344, y: 13.993138, z: -0.6320468}
+    m_Target: {x: 960, y: 540, z: 0}
     speed: 2
-    m_Value: {x: 42.05344, y: 13.993138, z: -0.6320468}
+    m_Value: {x: 960, y: 540, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -738,9 +738,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 24.77158
+    m_Target: 1101.4536
     speed: 2
-    m_Value: 24.77158
+    m_Value: 1101.4536
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -784,8 +784,8 @@ MonoBehaviour:
     y: 666
     width: 1505
     height: 281
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -910,8 +910,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 34fa0000
-    m_LastClickedInstanceID: 64052
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: fa07010044a10000347f0000a89500002c7f0000067d0000568a0000b07d0000ae8b00000000000090760000
     m_RenameOverlay:
@@ -1247,7 +1247,7 @@ MonoBehaviour:
     m_CachedPref: 156
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 64052
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
